@@ -1,5 +1,4 @@
 name: Update deps
-# Periodically run the workflow `Update deps`
 on:
   schedule:
     - cron: '0 0 * * *' # every day at midnight
@@ -13,3 +12,5 @@ jobs:
       - name: Update dependencies
         run: pnpm up -L
       - uses: stefanzweifel/git-auto-commit-action@v4.14.1
+        with:
+          commit_message: 'Update dependencies'
