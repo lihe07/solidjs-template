@@ -1,7 +1,8 @@
 name: Update deps
 on:
-  schedule:
-    - cron: '0 0 * * *' # every day at midnight
+  - schedule:
+      - cron: '0 0 * * *' # every day at midnight
+  - push
 
 jobs:
   update:
