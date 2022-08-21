@@ -1,0 +1,15 @@
+name: Update deps
+# Periodically run the workflow `Update deps`
+on:
+  schedule:
+    - cron: '0 0 * * *' # every day at midnight
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+  steps:
+    - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@v2.2.2
+    - name: Update dependencies
+      run: pnpm up -L
+    - uses: stefanzweifel/git-auto-commit-action@v4.14.1
