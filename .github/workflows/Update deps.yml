@@ -6,6 +6,7 @@ on:
 
 jobs:
   update:
+    if: ${{ github.repository == 'lihe07/solidjs-template' }} # only run on this repo
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -14,6 +15,8 @@ jobs:
           version: 7.9.3
       - name: Update dependencies
         run: pnpm up -L
+      - name: Test build
+        run: pnpm run build # If failed, stop workflow
       - uses: stefanzweifel/git-auto-commit-action@v4.14.1
         with:
           commit_message: 'Update dependencies'
