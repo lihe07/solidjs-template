@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "eslint src --ext .js --ext .jsx"
+    "lint": "eslint src --ext .js --ext .jsx",
+    "format": "prettier-eslint \"src/**/*.js\" \"src/**/*.jsx\" --write"
   },
   "license": "Unlicense",
   "devDependencies": {
@@ -18,6 +19,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-solid": "^0.7.1",
     "prettier": "^2.7.1",
+    "prettier-eslint-cli": "^7.0.1",
     "typescript": "^4.7.4",
     "unocss": "^0.45.12",
     "vite": "^3.0.9",
