@@ -888,8 +888,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /babel-plugin-jsx-dom-expressions/0.34.5_@babel+core@7.19.0:
-    resolution: {integrity: sha512-2smF8V/kd490yWqucLnWT9vQXBvCAx8Kf0wi2HD5LtO5VeLOArjn75oaaYnlazcyR/sdmef6WEsFG5Lnh5o/eA==}
+  /babel-plugin-jsx-dom-expressions/0.34.7_@babel+core@7.19.0:
+    resolution: {integrity: sha512-jTxBhu/MQscWdOcLfqKAY8lIiRsv1ivrMQShlePoa4G8S2cFNb93HTWN4FFdp3SpILaibygFXWU3H+aHpoGH/w==}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
@@ -906,7 +906,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.19.0
-      babel-plugin-jsx-dom-expressions: 0.34.5_@babel+core@7.19.0
+      babel-plugin-jsx-dom-expressions: 0.34.7_@babel+core@7.19.0
     dev: true
 
   /balanced-match/1.0.2:
@@ -942,7 +942,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001390
-      electron-to-chromium: 1.4.242
+      electron-to-chromium: 1.4.243
       node-releases: 2.0.6
       update-browserslist-db: 1.0.7_browserslist@4.21.3
     dev: true
@@ -1089,8 +1089,8 @@ packages:
       safe-buffer: 5.1.2
     dev: true
 
-  /core-js/3.25.0:
-    resolution: {integrity: sha512-CVU1xvJEfJGhyCpBrzzzU1kjCfgsGUxhEvwUV2e/cOedYWHdmluamx+knDnmhqALddMG16fZvIqvs9aijsHHaA==}
+  /core-js/3.25.1:
+    resolution: {integrity: sha512-sr0FY4lnO1hkQ4gLDr24K0DGnweGO1QwSj5BpfQjpSJPdqWalja4cTps29Y/PJVG/P7FYlPDkH3hO+Tr0CvDgQ==}
     requiresBuild: true
     dev: true
 
@@ -1202,8 +1202,8 @@ packages:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
     dev: true
 
-  /electron-to-chromium/1.4.242:
-    resolution: {integrity: sha512-nPdgMWtjjWGCtreW/2adkrB2jyHjClo9PtVhR6rW+oxa4E4Wom642Tn+5LslHP3XPL5MCpkn5/UEY60EXylNeQ==}
+  /electron-to-chromium/1.4.243:
+    resolution: {integrity: sha512-BgLD2gBX43OSXwlT01oYRRD5NIB4n3okTRxkzEAC6G0SZG4TTlyrWMjbOo0fajCwqwpRtMHXQNMjtRN6qpNtfw==}
     dev: true
 
   /emoji-regex/7.0.3:
@@ -2614,7 +2614,7 @@ packages:
       camelcase-keys: 7.0.2
       chalk: 4.1.2
       common-tags: 1.8.2
-      core-js: 3.25.0
+      core-js: 3.25.1
       eslint: 8.23.0
       find-up: 5.0.0
       get-stdin: 8.0.0
