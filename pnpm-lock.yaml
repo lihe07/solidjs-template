@@ -6,7 +6,7 @@ specifiers:
   eslint-plugin-import: ^2.26.0
   eslint-plugin-n: ^15.2.5
   eslint-plugin-promise: ^6.0.1
-  eslint-plugin-solid: ^0.7.2
+  eslint-plugin-solid: ^0.7.3
   prettier: ^2.7.1
   prettier-eslint-cli: ^7.1.0
   solid-js: ^1.5.5
@@ -14,7 +14,7 @@ specifiers:
   unocss: ^0.45.21
   vite: ^3.1.1
   vite-plugin-eslint: ^1.8.1
-  vite-plugin-solid: ^2.3.1
+  vite-plugin-solid: ^2.3.2
 
 dependencies:
   solid-js: 1.5.5
@@ -25,14 +25,14 @@ devDependencies:
   eslint-plugin-import: 2.26.0_eslint@8.23.1
   eslint-plugin-n: 15.2.5_eslint@8.23.1
   eslint-plugin-promise: 6.0.1_eslint@8.23.1
-  eslint-plugin-solid: 0.7.2_irgkl5vooow2ydyo6aokmferha
+  eslint-plugin-solid: 0.7.3_irgkl5vooow2ydyo6aokmferha
   prettier: 2.7.1
   prettier-eslint-cli: 7.1.0
   typescript: 4.8.3
   unocss: 0.45.21_vite@3.1.1
   vite: 3.1.1
   vite-plugin-eslint: 1.8.1_eslint@8.23.1+vite@3.1.1
-  vite-plugin-solid: 2.3.1_solid-js@1.5.5+vite@3.1.1
+  vite-plugin-solid: 2.3.2_solid-js@1.5.5+vite@3.1.1
 
 packages:
 
@@ -941,8 +941,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001400
-      electron-to-chromium: 1.4.252
+      caniuse-lite: 1.0.30001402
+      electron-to-chromium: 1.4.254
       node-releases: 2.0.6
       update-browserslist-db: 1.0.9_browserslist@4.21.4
     dev: true
@@ -990,8 +990,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite/1.0.30001400:
-    resolution: {integrity: sha512-Mv659Hn65Z4LgZdJ7ge5JTVbE3rqbJaaXgW5LEI9/tOaXclfIZ8DW7D7FCWWWmWiiPS7AC48S8kf3DApSxQdgA==}
+  /caniuse-lite/1.0.30001402:
+    resolution: {integrity: sha512-Mx4MlhXO5NwuvXGgVb+hg65HZ+bhUYsz8QtDGDo2QmaJS2GBX47Xfi2koL86lc8K+l+htXeTEB/Aeqvezoo6Ew==}
     dev: true
 
   /chalk/1.1.3:
@@ -1202,8 +1202,8 @@ packages:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
     dev: true
 
-  /electron-to-chromium/1.4.252:
-    resolution: {integrity: sha512-bwfkxPvK2PVbg+dXVFgoun+BkAyJmBPB0AqMTyQ/MzJsA/vEQoTi6Y1uWUDmo/IeOu2zvh4Ac6nfmFOWz5+oHg==}
+  /electron-to-chromium/1.4.254:
+    resolution: {integrity: sha512-Sh/7YsHqQYkA6ZHuHMy24e6TE4eX6KZVsZb9E/DvU1nQRIrH4BflO/4k+83tfdYvDl+MObvlqHPRICzEdC9c6Q==}
     dev: true
 
   /emoji-regex/7.0.3:
@@ -1596,8 +1596,8 @@ packages:
       eslint: 8.23.1
     dev: true
 
-  /eslint-plugin-solid/0.7.2_irgkl5vooow2ydyo6aokmferha:
-    resolution: {integrity: sha512-80jvjh4YypoN5rr/LjFqGA/Xjc3/6UxncGLRGbdYrQR7Y8xQ3ctRkceHb2enlq++vrkk/6rNRCqii0rEtWn80w==}
+  /eslint-plugin-solid/0.7.3_irgkl5vooow2ydyo6aokmferha:
+    resolution: {integrity: sha512-5Wtr+3AboB6Gzi64iyHXqEjrAONQLrsph7hftyiq+goDTUAZ9GN8HPHw+dqZV4XVPGxkDWpnSKKr+KE9VQok5g==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -3107,8 +3107,8 @@ packages:
       vite: 3.1.1
     dev: true
 
-  /vite-plugin-solid/2.3.1_solid-js@1.5.5+vite@3.1.1:
-    resolution: {integrity: sha512-4Z4ymhXmfjtGWC9myDOWdkb8zcjstiQIxB2MnCbB8R6EB/JrW7HOCajDVRHVvdfmi5/DJmwBENsAX6icE5YNHg==}
+  /vite-plugin-solid/2.3.2_solid-js@1.5.5+vite@3.1.1:
+    resolution: {integrity: sha512-Y7dqloWjHMKcRLnAY+gg6iw3tkm83N4abtMc8ZXkSHQCBy0LYCNYUfIPxnF/VxnBbN9EG1n5noZ/VbkS0WMIHQ==}
     peerDependencies:
       solid-js: ^1.3.17
       vite: ^3.0.0
