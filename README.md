@@ -25,7 +25,3 @@ This template works best with these vscode extensions:
 - [UnoCSS](https://marketplace.visualstudio.com/items?itemName=antfu.unocss) **[Recommended]**
   For unocss autocompletion and style retrieval
 
-## Why this template?
-
-Actually, solidjs team do provide [some templates](https://github.com/solidjs/templates) for solidjs projects. However, these templates often failed to keep up with the latest solidjs version and sometimes need more actions to be done. I also failed to install Prettier ESLint in official templates.
-This template is designed to keep up with the latest solidjs version and with Prettier ESLint installed.
