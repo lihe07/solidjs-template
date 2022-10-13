@@ -1,10 +1,9 @@
 import { defineConfig } from 'vite'
 import solidPlugin from 'vite-plugin-solid'
 import unocss from 'unocss/vite'
-import eslint from 'vite-plugin-eslint'
 
 export default defineConfig({
-  plugins: [solidPlugin(), unocss(), eslint()],
+  plugins: [solidPlugin(), unocss()],
   server: {
     port: 3000
   },
