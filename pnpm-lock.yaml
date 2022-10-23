@@ -6,7 +6,7 @@ specifiers:
   eslint-plugin-import: ^2.26.0
   eslint-plugin-n: ^15.3.0
   eslint-plugin-promise: ^6.1.1
-  eslint-plugin-solid: ^0.7.3
+  eslint-plugin-solid: ^0.7.4
   prettier: ^2.7.1
   prettier-eslint-cli: ^7.1.0
   solid-js: ^1.6.0
@@ -24,7 +24,7 @@ devDependencies:
   eslint-plugin-import: 2.26.0_eslint@8.26.0
   eslint-plugin-n: 15.3.0_eslint@8.26.0
   eslint-plugin-promise: 6.1.1_eslint@8.26.0
-  eslint-plugin-solid: 0.7.3_wyqvi574yv7oiwfeinomdzmc3m
+  eslint-plugin-solid: 0.7.4_wyqvi574yv7oiwfeinomdzmc3m
   prettier: 2.7.1
   prettier-eslint-cli: 7.1.0
   typescript: 4.8.4
@@ -1626,8 +1626,8 @@ packages:
       eslint: 8.26.0
     dev: true
 
-  /eslint-plugin-solid/0.7.3_wyqvi574yv7oiwfeinomdzmc3m:
-    resolution: {integrity: sha512-5Wtr+3AboB6Gzi64iyHXqEjrAONQLrsph7hftyiq+goDTUAZ9GN8HPHw+dqZV4XVPGxkDWpnSKKr+KE9VQok5g==}
+  /eslint-plugin-solid/0.7.4_wyqvi574yv7oiwfeinomdzmc3m:
+    resolution: {integrity: sha512-AqGl5gyTA2qpF3VnzHcXgZuCjYp7a1Rmukcg+OIPA4fX7TkmsYZDcclh5jw9JwPsc4IcU8T9RYkJW5pQ52Gzcg==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
