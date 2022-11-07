@@ -12,10 +12,10 @@
   },
   "license": "Unlicense",
   "devDependencies": {
-    "eslint": "^8.26.0",
+    "eslint": "^8.27.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-n": "^15.5.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-solid": "^0.8.0",
     "prettier": "^2.7.1",
