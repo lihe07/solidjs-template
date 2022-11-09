@@ -71,7 +71,7 @@ packages:
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.20.3
+      '@babel/generator': 7.20.4
       '@babel/helper-compilation-targets': 7.20.0_@babel+core@7.20.2
       '@babel/helper-module-transforms': 7.20.2
       '@babel/helpers': 7.20.1
@@ -88,8 +88,8 @@ packages:
       - supports-color
     dev: true
 
-  /@babel/generator/7.20.3:
-    resolution: {integrity: sha512-Wl5ilw2UD1+ZYprHVprxHZJCFeBWlzZYOovE4SDYLZnqCOD11j+0QzNeEWKLLTWM7nixrZEh7vNIyb76MyJg3A==}
+  /@babel/generator/7.20.4:
+    resolution: {integrity: sha512-luCf7yk/cm7yab6CAW1aiFnmEfBJplb/JojV56MYEK7ziWfGmFlTfmL9Ehwfy4gFhbjBfWO1wj7/TuSbVNEEtA==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/types': 7.20.2
@@ -336,7 +336,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.18.6
-      '@babel/generator': 7.20.3
+      '@babel/generator': 7.20.4
       '@babel/helper-environment-visitor': 7.18.9
       '@babel/helper-function-name': 7.19.0
       '@babel/helper-hoist-variables': 7.18.6
@@ -880,8 +880,8 @@ packages:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
 
-  /array-includes/3.1.5:
-    resolution: {integrity: sha512-iSDYZMMyTPkiFasVqfuAQnWAYcvO/SeBSCGKePoEthjp4LEMTe4uLc7b025o4jAZpHhihh8xPo99TNWUWWkGDQ==}
+  /array-includes/3.1.6:
+    resolution: {integrity: sha512-sgTbLvL6cNnw24FnbaDyjmvddQ2ML8arZsgaJhoABMoplz/4QRhtrYS+alr1BUM1Bwp6dhx8vVCBSLG+StwOFw==}
     engines: {node: '>= 0.4'}
     dependencies:
       call-bind: 1.0.2
@@ -1580,7 +1580,7 @@ packages:
       '@typescript-eslint/parser':
         optional: true
     dependencies:
-      array-includes: 3.1.5
+      array-includes: 3.1.6
       array.prototype.flat: 1.3.1
       debug: 2.6.9
       doctrine: 2.1.0
@@ -2284,7 +2284,7 @@ packages:
     resolution: {integrity: sha512-fYQHZTZ8jSfmWZ0iyzfwiU4WDX4HpHbMCZ3gPlWYiCl3BoeOTsqKBqnTVfH2rYT7eP5c3sVbeSPHnnJOaTrWiw==}
     engines: {node: '>=4.0'}
     dependencies:
-      array-includes: 3.1.5
+      array-includes: 3.1.6
       object.assign: 4.1.4
     dev: true
 
@@ -2344,11 +2344,11 @@ packages:
     resolution: {integrity: sha512-u45Wcxxc+SdAlh4yeF/uKlC1SPUPCy0gullSNKXod5I4bmifzk+Q4lSLExNEVn19tGaJipbZ4V4jbFn79/6mVA==}
     dependencies:
       chalk: 1.1.3
-      loglevel: 1.8.0
+      loglevel: 1.8.1
     dev: true
 
-  /loglevel/1.8.0:
-    resolution: {integrity: sha512-G6A/nJLRgWOuuwdNuA6koovfEV1YpqqAG4pRUlFaz3jj2QNZ8M4vBqnVA+HBTmU/AMNUtlOsMmSpF6NyOjztbA==}
+  /loglevel/1.8.1:
+    resolution: {integrity: sha512-tCRIJM51SHjAayKwC+QAg8hT8vg6z7GSgLJKGvzuPb1Wc+hLzqtuVLxp6/HzSPOozuK+8ErAhy7U/sVzw8Dgfg==}
     engines: {node: '>= 0.6.0'}
     dev: true
 
@@ -2870,7 +2870,7 @@ packages:
     peerDependencies:
       solid-js: ^1.3
     dependencies:
-      '@babel/generator': 7.20.3
+      '@babel/generator': 7.20.4
       '@babel/helper-module-imports': 7.18.6
       '@babel/types': 7.20.2
       solid-js: 1.6.1
