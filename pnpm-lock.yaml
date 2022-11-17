@@ -475,7 +475,7 @@ packages:
       '@messageformat/number-skeleton': 1.1.0
       '@messageformat/parser': 5.0.0
       '@messageformat/runtime': 3.0.1
-      make-plural: 7.1.0
+      make-plural: 7.2.0
       safe-identifier: 0.4.2
     dev: true
 
@@ -496,7 +496,7 @@ packages:
   /@messageformat/runtime/3.0.1:
     resolution: {integrity: sha512-6RU5ol2lDtO8bD9Yxe6CZkl0DArdv0qkuoZC+ZwowU+cdRlVE1157wjCmlA5Rsf1Xc/brACnsZa5PZpEDfTFFg==}
     dependencies:
-      make-plural: 7.1.0
+      make-plural: 7.2.0
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
@@ -2366,8 +2366,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /make-plural/7.1.0:
-    resolution: {integrity: sha512-PKkwVlAxYVo98NrbclaQIT4F5Oy+X58PZM5r2IwUSCe3syya6PXkIRCn2XCdz7p58Scgpp50PBeHmepXVDG3hg==}
+  /make-plural/7.2.0:
+    resolution: {integrity: sha512-WkdI+iaWaBCFM2wUXwos8Z7spg5Dt64Xe/VI6NpRaly21cDtD76N6S97K//UtzV0dHOiXX+E90TnszdXHG0aMg==}
     dev: true
 
   /map-obj/4.3.0:
