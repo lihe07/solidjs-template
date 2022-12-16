@@ -2671,7 +2671,7 @@ packages:
       indent-string: 4.0.0
       lodash.memoize: 4.1.2
       loglevel-colored-level-prefix: 1.0.0
-      rxjs: 7.6.0
+      rxjs: 7.8.0
       yargs: 13.3.2
     transitivePeerDependencies:
       - supports-color
@@ -2800,8 +2800,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /rxjs/7.6.0:
-    resolution: {integrity: sha512-DDa7d8TFNUalGC9VqXvQ1euWNN7sc63TrUCuM9J998+ViviahMIjKSOU7rfcgFOF+FCD71BhDRv4hrFz+ImDLQ==}
+  /rxjs/7.8.0:
+    resolution: {integrity: sha512-F2+gxDshqmIub1KdvZkaEfGDwLNpPvk9Fs6LD/MyQxNgMds/WH9OdDDXOmxUZpME+iSK3rQCctkL0DYyytUqMg==}
     dependencies:
       tslib: 2.4.1
     dev: true
