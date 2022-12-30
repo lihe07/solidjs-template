@@ -1099,8 +1099,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /babel-plugin-jsx-dom-expressions/0.35.8_@babel+core@7.20.7:
-    resolution: {integrity: sha512-IzObXlDFA80wyEW/IUtCxaUAoJnq4CTpvcvC1xBZBlMpJDwmK6mIYnTZ9xgFyGCrAjC0LxVcqeDQx31gJJ4UJQ==}
+  /babel-plugin-jsx-dom-expressions/0.35.9_@babel+core@7.20.7:
+    resolution: {integrity: sha512-YXb+I4dej5E94bzPzPBECUT5Q5vuSQJzsq1NgW8fe4gsgg6vcy6c6VqixgtY0UU8udKTc1Ls5CmgaFDj2fO9lA==}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
@@ -1117,7 +1117,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.20.7
-      babel-plugin-jsx-dom-expressions: 0.35.8_@babel+core@7.20.7
+      babel-plugin-jsx-dom-expressions: 0.35.9_@babel+core@7.20.7
     dev: true
 
   /balanced-match/1.0.2:
@@ -1305,8 +1305,8 @@ packages:
     resolution: {integrity: sha512-ASFBup0Mz1uyiIjANan1jzLQami9z1PoYSZCiiYW2FczPbenXc45FZdBZLzOT+r6+iciuEModtmCti+hjaAk0A==}
     dev: true
 
-  /core-js/3.27.0:
-    resolution: {integrity: sha512-wY6cKosevs430KRkHUIsvepDXHGjlXOZO3hYXNyqpD6JvB0X28aXyv0t1Y1vZMwE7SoKmtfa6IASHCPN52FwBQ==}
+  /core-js/3.27.1:
+    resolution: {integrity: sha512-GutwJLBChfGCpwwhbYoqfv03LAfmiz7e7D/BNxzeMxwQf10GRSzqiOjx7AmtEk+heiD/JWmBuyBPgFtx0Sg1ww==}
     requiresBuild: true
     dev: true
 
@@ -2669,7 +2669,7 @@ packages:
       camelcase-keys: 7.0.2
       chalk: 4.1.2
       common-tags: 1.8.2
-      core-js: 3.27.0
+      core-js: 3.27.1
       eslint: 8.30.0
       find-up: 5.0.0
       get-stdin: 8.0.0
