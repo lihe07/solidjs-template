@@ -2583,7 +2583,7 @@ packages:
       destr: 1.2.2
       node-fetch-native: 0.1.8
       ufo: 0.8.6
-      undici: 5.15.1
+      undici: 5.15.2
     dev: true
 
   /once/1.4.0:
@@ -3156,8 +3156,8 @@ packages:
       jiti: 1.16.2
     dev: true
 
-  /undici/5.15.1:
-    resolution: {integrity: sha512-XLk8g0WAngdvFqTI+VKfBtM4YWXgdxkf1WezC771Es0Dd+Pm1KmNx8t93WTC+Hh9tnghmVxkclU1HN+j+CvIUA==}
+  /undici/5.15.2:
+    resolution: {integrity: sha512-JsN6meyJESMJaLqOuozstwrolSkLWlTIT4qpGoKepNdnZy7HJMPKB0v0Td/CepGgoiPpUSvVO9Nh/5N9QrmDgQ==}
     engines: {node: '>=12.18'}
     dependencies:
       busboy: 1.6.0
