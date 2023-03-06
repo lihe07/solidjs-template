@@ -1163,8 +1163,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /babel-plugin-jsx-dom-expressions/0.35.16_@babel+core@7.21.0:
-    resolution: {integrity: sha512-Z8vaeXRdtI4qyq3bmQiLjiZnbjn2Rr0mjpXMwN+QxHbWjtlAFOJSHlkcxbrwPz/DdcfSgkmZM0Atvt/zMLeLyA==}
+  /babel-plugin-jsx-dom-expressions/0.35.17_@babel+core@7.21.0:
+    resolution: {integrity: sha512-OtzYARZpeJv2PWGxV6ww8ejlzELkzcNuaS+2Yz9zI4A0fRVymLZLZr+vxljFSDnAsxlwTr1YBtrm7bXkU8y6/g==}
     peerDependencies:
       '@babel/core': ^7.20.12
     dependencies:
@@ -1182,7 +1182,7 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.21.0
-      babel-plugin-jsx-dom-expressions: 0.35.16_@babel+core@7.21.0
+      babel-plugin-jsx-dom-expressions: 0.35.17_@babel+core@7.21.0
     dev: true
 
   /balanced-match/1.0.2:
