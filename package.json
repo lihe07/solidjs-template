@@ -11,7 +11,8 @@
     "format": "prettier-eslint \"src/**/*.js\" \"src/**/*.jsx\" --write"
   },
   "license": "Unlicense",
-  "devDependencies": {
+  "dependencies": {
+    "solid-js": "^1.6.12",
     "eslint": "^8.35.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
@@ -24,8 +25,5 @@
     "unocss": "^0.50.4",
     "vite": "^4.1.4",
     "vite-plugin-solid": "^2.6.1"
-  },
-  "dependencies": {
-    "solid-js": "^1.6.12"
   }
 }

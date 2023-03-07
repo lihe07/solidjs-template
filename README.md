@@ -24,4 +24,3 @@ This template works best with these vscode extensions:
 
 - [UnoCSS](https://marketplace.visualstudio.com/items?itemName=antfu.unocss) **[Recommended]**
   For unocss autocompletion and style retrieval
-
