@@ -20,9 +20,9 @@
     "eslint-plugin-solid": "^0.12.1",
     "prettier": "^2.8.8",
     "prettier-eslint-cli": "^7.1.0",
-    "solid-js": "^1.7.5",
+    "solid-js": "^1.7.6",
     "typescript": "^5.0.4",
-    "unocss": "^0.52.5",
+    "unocss": "^0.52.7",
     "vite": "^4.3.9",
     "vite-plugin-solid": "^2.7.0"
   }
