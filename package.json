@@ -22,7 +22,7 @@
     "prettier-eslint-cli": "^7.1.0",
     "solid-js": "^1.7.8",
     "typescript": "^5.1.6",
-    "unocss": "^0.54.0",
+    "unocss": "^0.54.1",
     "vite": "^4.4.7",
     "vite-plugin-solid": "^2.7.0"
   }
