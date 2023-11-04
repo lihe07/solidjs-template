@@ -12,7 +12,7 @@
   },
   "license": "Unlicense",
   "dependencies": {
-    "eslint": "^8.52.0",
+    "eslint": "^8.53.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-n": "^16.2.0",
@@ -22,7 +22,7 @@
     "prettier-eslint-cli": "^8.0.1",
     "solid-js": "^1.8.5",
     "typescript": "^5.2.2",
-    "unocss": "^0.57.1",
+    "unocss": "^0.57.2",
     "vite": "^4.5.0",
     "vite-plugin-solid": "^2.7.2"
   }
